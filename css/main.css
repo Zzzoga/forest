@@ -66,7 +66,6 @@ input:-ms-input-placeholder {
 /* MAIN */
 
 main {
-	background: url(../img/main_bg.svg) no-repeat center 70vh;
 	background-color: #021444;
 	padding-bottom: 80px;
 }
