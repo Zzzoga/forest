@@ -69,38 +69,13 @@ document.addEventListener('DOMContentLoaded', () => {
       	spaceBetween: 30,
 	});
 
-	const InfImg = new Swiper("section.infrastructure .img__slider.swiper", {});
-	const InfInfo = new Swiper("section.infrastructure .info__slider.swiper", {
+	const InfInfo = new Swiper("section.infrastructure .img__slider.swiper", {
 		navigation: {
 			nextEl: "section.infrastructure .arrow.next",
 			prevEl: "section.infrastructure .arrow.prev",
 		},
+		loop: 'true'
 	});
-
-	const swipeAllSliders = (index) => {
-		InfImg.slideTo(index);
-		InfInfo.slideTo(index);
-	}
-
-	InfImg.on('slideChange', () => swipeAllSliders(InfImg.activeIndex));
-	InfInfo.on('slideChange', () => swipeAllSliders(InfInfo.activeIndex));
-
-	
-	const BenImg = new Swiper("section.benefits .img__slider.swiper", {});
-	const BenInfo = new Swiper("section.benefits .info__slider.swiper", {
-		navigation: {
-			nextEl: "section.benefits .arrow.next",
-			prevEl: "section.benefits .arrow.prev",
-		},
-	});
-
-	const swipeBenefitsSliders = (index) => {
-		BenImg.slideTo(index);
-		BenInfo.slideTo(index);
-	}
-
-	BenImg.on('slideChange', () => swipeBenefitsSliders(BenImg.activeIndex));
-	BenInfo.on('slideChange', () => swipeBenefitsSliders(BenInfo.activeIndex));
 
 	// NAV 
 
