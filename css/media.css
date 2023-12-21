@@ -579,9 +579,8 @@
     }
     
     .img__slider.swiper .swiper-wrapper {
-        height: 500px;
+        height: 400px;
         border-radius: 10px;
-        /* overflow: hidden; */
     }
     
     .benefits__text {
@@ -689,5 +688,9 @@
     .img__slider.swiper .swiper-slide {
         border-radius: 10px;
         overflow: hidden;
+    }
+
+    h3.slide__title {
+        font-size: 18px;
     }
 }
