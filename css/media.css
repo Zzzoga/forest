@@ -1,0 +1,693 @@
+@media screen and (max-width: 1600px) {
+    header.header .section__wrapper {
+        max-width: 1280px;
+    }
+    
+    
+    .offer {
+        max-width: 1280px;
+    }
+    
+    h3.subtitile {
+        font-size: 20px;
+    }
+    
+    h1.title {
+        font-size: 54px;
+        margin: 10px 0 20px 0;
+    }
+    
+    .top__slider.swiper .swiper-slide ul li {
+        font-size: 20px;
+    }
+    
+    .top__screen a.btn {
+        font-size: 20px;
+        padding: 20px 80px;
+    }
+    
+    h2.section__title {
+        font-size: 36px;
+        margin-bottom: 36px;
+    }
+    
+    .slider__container {
+        max-width: 1280px;
+    }
+    
+    .img__slider.swiper {
+        max-width: 1280px;
+        height: 600px;
+    }
+    
+    h3.slide__title {
+        font-size: 28px;
+        bottom: 30px;
+        left: 30px;
+    }
+    
+    .arrows {
+        right: 30px;
+        bottom: 30px;
+    }
+    
+    .arrow {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .arrow svg {
+        width: 24px;
+    }
+    
+    .arrow.prev {
+        margin-right: 10px;
+    }
+    
+    section.benefits img:nth-child(1) {
+        width: 480px;
+        top: 0;
+    }
+    
+    section.benefits img:nth-child(2) {
+        width: 500px;
+    }
+    
+    .benefits__text {
+        font-size: 20px;
+    }
+    
+    .param {
+        font-size: 48px;
+    }
+    
+    section.map .section__wrapper {
+        max-width: 1280px;
+    }
+    
+    .map__info video {
+        height: 800px;
+    }
+    
+    .map__wrapper {
+        height: 500px;
+    }
+    
+    .map__info {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    section.book img:nth-child(1) {
+        width: 350px;
+        top: -51px;
+    }
+    
+    section.book img:nth-child(2) {
+        width: 400px;
+        top: -100px;
+    }
+    
+    h3.section__title {
+        margin: 30px 0 80px;
+        font-size: 20px;
+    }
+    
+    h3.section__title svg {
+        width: 220px;
+    }
+    
+    .book__wrapper span {
+        font-size: 20px;
+        margin-right: 30px;
+    }
+    
+    .item__value {
+        font-size: 20px;
+    }
+    
+    .contacts__item {
+        margin-bottom: 30px;
+    }
+    
+    .fos {
+        width: 50%;
+        padding: 0 50px;
+        height: 500px;
+        background-size: 105%;
+    }
+    
+    h3.fos__title {
+        font-size: 28px;
+    }
+    
+    .fos__text {
+        font-size: 16px;
+    }
+    
+    input.fos__input {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+    
+    input.fos__submit {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+    
+    .fos__politics {
+        font-size: 16px;
+    }
+    
+    .footer__top {
+        font-size: 14px;
+        padding: 20px;
+        max-width: 1280px;
+    }
+    
+    a.urals svg {
+        width: 120px;
+        height: 35px;
+    }
+    
+    
+    .contacts__info {
+        padding-left: 5.5%;
+    }
+    
+    a.logo svg {
+        width: 220px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    header.header.scroll .section__wrapper,
+    header.header.active .section__wrapper {
+        max-width: 1140px;
+    }
+    
+    header.header .section__wrapper {
+        max-width: 1000px;
+    }
+    
+    a.menu__link {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    
+    a.header__call {
+        font-size: 14px;
+        margin-right: 40px;
+    }
+    
+    a.btn {
+        font-size: 14px;
+    }
+    
+    a.logo svg {
+        width: 200px;
+        height: 35px;
+    }
+    
+    .offer {
+        max-width: 1000px;
+    }
+    
+    .top__screen a.btn {
+        font-size: 18px;
+        padding: 15px 60px;
+    }
+    
+    section {
+        margin-bottom: 80px;
+    }
+    
+    h2.section__title {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+    
+    .slider__container {
+        max-width: 1000px;
+    }
+    
+    .img__slider.swiper {
+        max-width: 1000px;
+        height: 500px;
+    }
+    
+    h3.slide__title {
+        font-size: 24px;
+    }
+    
+    section.benefits img:nth-child(1) {
+        width: 320px;
+    }
+    
+    section.benefits img:nth-child(2) {
+        width: 360px;
+    }
+    
+    .param {
+        font-size: 36px;
+    }
+    
+    .text {
+        font-size: 13px;
+    }
+    
+    section.map .section__wrapper {
+        max-width: 1000px;
+    }
+    
+    .map__info {
+        font-size: 18px;
+    }
+    
+    .map__info__title {
+        max-width: 400px;
+    }
+    
+    .map__wrapper {
+        height: 400px;
+    }
+    
+    .map__info video {
+        height: 700px;
+    }
+    
+    section.book img:nth-child(1) {
+        width: 300px;
+        top: -70px;
+    }
+    
+    section.book img:nth-child(2) {
+        width: 300px;
+        top: -80px;
+    }
+    
+    section.book a.btn {
+        font-size: 18px;
+        padding: 20px 50px;
+    }
+    
+    .book__wrapper span {
+        font-size: 18px;
+    }
+    
+    h3.section__title {
+        font-size: 18px;
+        z-index: 1;
+    }
+    
+    .footer__top {
+        max-width: 1000px;
+    }
+    
+    main {
+        padding-bottom: 40px;
+    }
+    
+    .fos {
+        width: 60%;
+    }
+    
+    section.benefits {
+        margin-bottom: 150px;
+    }
+
+    header.header.scroll .section__wrapper,
+    header.header.active .section__wrapper {
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .menu {
+        display: none;
+    }
+    
+    header.header {
+        padding: 20px;
+    }
+    
+    header.header.scroll,
+    header.header.active {
+        padding: 20px;
+    }
+    
+    .offer {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    
+    .slider__container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    
+    section.benefits img:nth-child(1) {
+        width: 250px;
+        top: 100px;
+    }
+    
+    section.benefits img:nth-child(2) {
+        width: 215px;
+        top: 95px;
+    }
+    
+    .map__container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .map__info {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .map__info video {
+        height: 600px;
+    }
+    
+    .map__description {
+        width: 100%;
+        align-items: center;
+    }
+    
+    .counter__item {
+        width: 49%;
+        align-items: center;
+    }
+    
+    .project__counter {
+        max-width: 70%;
+    }
+    
+    .map__info__title {
+        text-align: center;
+    }
+    
+    section.map h2.section__title {
+        text-align: center;
+        width: 100%;
+    }
+    
+    section.book .section__wrapper {
+        padding: 0 20px;
+    }
+    
+    section.contacts .section__wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .fos {
+        width: 100%;
+        border-radius: 15px;
+        height: 100%;
+        padding: 50px;
+        margin-top: 50px;
+    }
+    
+    .contacts__info {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .footer__top {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    a.politics {
+        margin: 15px 0;
+    }
+
+    .burger {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        background: url(../img/burger_light.svg) no-repeat center;
+        background-size: 100%;
+        transition: all .5s ease;
+    }
+    
+    header.header.scroll .burger {
+        background: url(../img/burger_dark.svg) no-repeat center;
+        background-size: 100%;
+    }
+
+    .contacts__items {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .burger.active,
+    header.header.scroll .burger.active {
+        background: url(../img/burger_close.svg) no-repeat center;
+        background-size: 100%;
+    }
+
+    .modal__nav {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(../img/top_screen_1.png) no-repeat center;
+        transition: all .5s ease;
+        transform: translateY(-100%);
+    }
+    
+    .modal__overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #314725;
+        OPACITY: 80%;
+    }
+    
+    .modal__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+    }
+    
+    a.modal__nav__link {
+        font-size: 28px;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        margin-bottom: 30px;
+        transition: all .5s ease;
+    }
+    
+    a.modal__nav__link:last-child {
+        margin: 0;
+    }
+    
+    .modal__nav.active {
+        transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    a.logo svg {
+        width: 160px;
+        height: 30px;
+    }
+    
+    a.header__call {
+        display: none;
+    }
+    
+    .header__contact a.btn {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header.header.scroll .section__wrapper a.logo svg, header.header.active .section__wrapper a.logo svg {
+        width: 160px;
+        height: 30px;
+    }
+    
+    header.header.scroll .section__wrapper, header.header.active .section__wrapper {
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    header.header.scroll {
+        padding: 10px 20px;
+    }
+    
+    h3.subtitile {
+        font-size: 16px;
+    }
+    
+    h2.title {
+        font-size: 28px;
+    }
+    
+    h1.title {
+        font-size: 44px;
+        margin: 0;
+    }
+    
+    .top__slider.swiper .swiper-slide ul li {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+    
+    a.btn {
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    
+    .top__screen a.btn {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .arrows {
+        position: initial;
+        margin-top: 30px;
+    }
+    
+    .img__slider.swiper {
+        height: auto;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img__slider.swiper .swiper-wrapper {
+        height: 500px;
+        border-radius: 10px;
+        /* overflow: hidden; */
+    }
+    
+    .benefits__text {
+        max-width: 80%;
+    }
+    
+    section.benefits img:nth-child(1) {
+        top: -56px;
+    }
+    
+    section.benefits img:nth-child(2) {
+        top: 180px;
+    }
+    
+    h2.section__title {
+        font-size: 28px;
+    }
+    
+    .map__info {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .map__info video {
+        height: 500px;
+    }
+    
+    .project__counter {
+        max-width: 100%;
+    }
+    
+    .counter__item {
+        width: 100%;
+    }
+    
+    section.book img:nth-child(2) {
+        top: 290px;
+    }
+    
+    .book__wrapper {
+        flex-direction: column;
+    }
+    
+    .book__wrapper span {
+        font-size: 16px;
+        margin: 0 0 16px 0;
+    }
+    
+    section.book a.btn {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+    
+    h3.section__title {
+        font-size: 16px;
+    }
+    
+    .contacts__items {
+        flex-direction: column;
+    }
+    
+    .fos {
+        padding: 30px;
+        border-radius: 10px;
+    }
+    
+    .fos__text {
+        max-width: 100%;
+    }
+    
+    .fos__inputs {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    input.fos__input {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .fos__politics {
+        font-size: 12px;
+    }
+    
+    section.book h3.section__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0 40px;
+    }
+    
+    section.book h2.section__title {
+        font-size: 24px;
+    }
+
+    .header__contact a.btn img {
+        width: 20px;
+    }
+    
+    a.modal__nav__link {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .img__slider.swiper .swiper-slide {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}

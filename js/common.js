@@ -79,26 +79,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// NAV 
 
-	// document.querySelector('.mobile__menu').addEventListener('click', e => {
-	// 	e.preventDefault()
-	// 	if (e.target.textContent == 'Меню') {
-	// 		e.target.innerHTML = 'Закрыть'
-	// 		e.target.classList.add('active')
-	// 		document.querySelector('.nav__container').classList.add('active')
-	// 	} else if (e.target.textContent == 'Закрыть') {
-	// 		e.target.classList.remove('active')
-	// 		document.querySelector('.nav__container').classList.remove('active')
-	// 		e.target.innerHTML = 'Меню'
-	// 	}
-	// })
+	document.querySelector('.burger').addEventListener('click', e => {
+		if (!e.target.classList.contains('active')) {
+			e.target.classList.add('active')
+			document.querySelector('html').style.overflowY = 'hidden'
+			document.querySelector('header').classList.add('active')
+			document.querySelector('.modal__nav').classList.add('active')
+		} else {
+			e.target.classList.remove('active')
+			document.querySelector('html').style.overflowY = 'visible'
+			document.querySelector('header').classList.remove('active')
+			document.querySelector('.modal__nav').classList.remove('active')
+		}
+	})
 
-	// document.querySelectorAll('a.nav__link').forEach(btn => {
-	// 	btn.addEventListener('click', e => {
-	// 		document.querySelector('.mobile__menu').classList.remove('active')
-	// 		document.querySelector('.nav__container').classList.remove('active')
-	// 		document.querySelector('.mobile__menu').innerHTML = 'Меню'
-	// 	})
-	// })
+	document.querySelectorAll('a.modal__nav__link').forEach(link => {
+		link.addEventListener('click', e => {
+			document.querySelector('.burger').classList.remove('active')
+			document.querySelector('html').style.overflowY = 'visible'
+			document.querySelector('header').classList.remove('active')
+			document.querySelector('.modal__nav').classList.remove('active')
+		})
+	})
+
+	if (document.documentElement.clientWidth < 600) {
+		document.querySelector('.header__contact a.btn').innerHTML = '<img src="img/mobile.png" alt="">'
+	}
 
 	// SMOOTH SCROLL
 
@@ -106,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const $page = $('html, body');
 	$('a[href*="#"]').click(function() {
 		$page.animate({
-			scrollTop: $($.attr(this, 'href')).offset().top
+			scrollTop: $($.attr(this, 'href')).offset().top - 100
 		}, 800);
 		return false;
 	});
